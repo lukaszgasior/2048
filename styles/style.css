@@ -1,0 +1,54 @@
+body {
+  background: #fff;
+}
+
+.container {
+  width: 445px;
+  margin: 0 auto;  
+}
+
+.board-container {
+  position: absolute;
+  background: #777;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+.row:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  background: rgba(255,255,255,0.4);
+  float: left;
+  margin-right: 15px;
+}
+
+.cell:last-child {
+  margin-right: 0;
+}
+
+.tiles-container {
+  position: absolute;
+}
+
+.tile {
+  top: 15px;
+  left: 15px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
